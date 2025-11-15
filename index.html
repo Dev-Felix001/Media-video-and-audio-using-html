@@ -1,26 +1,61 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head><link rel="stylesheet" href="styles.css"> 
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Please sign in to your account</p>
+            
+            <form class="login-form">
+                <div class="input-group">
+                    <label for="username">Username or Email</label>
+                    <input type="text" id="username" placeholder="Enter your username or email" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                
+                <div class="options">
+                    <label class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                
+                <button type="submit" class="login-btn">Sign In</button>
+            </form>
+            
+            <div class="divider">
+                <span>Or continue with</span>
+            </div>
+            
+            <div class="social-login">
+                <button class="social-btn google">
+                    <span>Google</span>
+                </button>
+                <button class="social-btn facebook">
+                    <span>Facebook</span>
+                </button>
+            </div>
+            
+            <p class="signup-link">
+                Don't have an account? <a href="#">Sign up</a>
+            </p>
+        </div>
+    </div>
 </body>
-<video width="600" height="240" autoplay muted controls>
-  <source src="./Download (12).mp4" type="video/mp4">
-<source src="./Download (12).mp4" type="video/ogg">
-</video>
-
-<p>
-Video courtesy of 
-<a href="#" target> my video</video></a>.
-</p>
-<p>This is one of my favourite song</p>
-<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" width="400" height="250">
-
-</iframe>
+</html>
 
 </body>
 </html>
